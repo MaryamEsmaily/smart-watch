@@ -35,3 +35,26 @@ code {
 .react-clock__face {
   background-color: var(--white);
 }
+
+.custom-shape-divider-bottom-1650816513 {
+  position: absolute;
+  z-index: -1000;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1650816513 svg {
+  position: relative;
+  display: block;
+  width: calc(153% + 1.3px);
+  height: 500px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1650816513 .shape-fill {
+  fill: #2E1B3FE0;
+}
