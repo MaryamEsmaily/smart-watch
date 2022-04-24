@@ -10,7 +10,7 @@ function Options() {
         <div className="col-6">
           <div
             className="p-3 my-2 bg-info text-nowrap"
-            style={{ borderRadius: "15" }}
+            style={{ borderRadius: "15px" }}
           >
             <RiHeartPulseLine className="fs-2" />
             <p className="m-0 mt-4 fs-5">HEART RATE</p>
@@ -18,21 +18,21 @@ function Options() {
           </div>
         </div>
         <div className="col-6">
-          <div className="p-3 my-2 bg-danger" style={{ borderRadius: "15" }}>
+          <div className="p-3 my-2 bg-danger" style={{ borderRadius: "15px" }}>
             <IoFootstepsOutline className="fs-2" />
             <p className="m-0 mt-4 fs-5">STEPS</p>
             <p className="fw-lighter">Steps</p>
           </div>
         </div>
         <div className="col-6">
-          <div className="p-3 my-2 bg-warning" style={{ borderRadius: "15" }}>
+          <div className="p-3 my-2 bg-warning" style={{ borderRadius: "15px" }}>
             <TiWeatherPartlySunny className="fs-2" />
             <p className="m-0 mt-4 fs-5">WEATHER</p>
             <p className="fw-lighter">Todays Weather</p>
           </div>
         </div>
         <div className="col-6">
-          <div className="p-3 my-2 bg-primary" style={{ borderRadius: "15" }}>
+          <div className="p-3 my-2 bg-primary" style={{ borderRadius: "15px" }}>
             <IoFastFoodOutline className="fs-2" />
             <p className="m-0 mt-4 fs-5">CALORIES</p>
             <p className="fw-lighter">Calories</p>
