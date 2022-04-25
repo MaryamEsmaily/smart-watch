@@ -8,9 +8,14 @@ function AnalogClock() {
   const [time, setTime] = useState();
 
   const today = new Date();
+  console.log(today.getUTCDate());
   useEffect(() => {
     setDate(
-      today.getFullYear() + "/" + (today.getMonth() + 1) + "/" + today.getDate()
+      today.toLocaleDateString("locale", { weekday: "short" }) +
+        "," +
+        today.toLocaleString("locale", { month: "long" }) +
+        " " +
+        today.getDate()
     );
   }, [today]);
 
